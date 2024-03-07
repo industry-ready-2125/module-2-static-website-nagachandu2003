@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 body{
     margin:0;
     padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    cursor:pointer;
 }
 .nav-container{
     background-color: #ffffff;
@@ -10,6 +17,7 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 .nav-image-logo{
     height:50px;
@@ -116,5 +124,89 @@ body{
     }
     .sm-nav-cont{
         display: none;
+    }
+}
+.par1{
+    font-family: "Roboto";
+    background-color: #deebff;
+    padding:20px;
+    text-align: center;
+    color:#172B4D;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.learnmore{
+    color:#0052CC;
+    text-decoration: underline;
+}
+.card1{
+    text-align: center;
+    background-image: linear-gradient(to right, #6b45ac,#dc4fb3);
+    min-height: 90vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-card1{
+    width:100%;
+    font-family: "Roboto";
+    color:white;
+}
+
+.email-input{
+    height:50px;
+    padding:16px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    width:60%;
+    font-size:16px;
+    display: none;
+}
+.signupbtn{
+    background-color: #0065ff;
+    padding:16px;
+    border-width:0;
+    border-radius:5px;
+    color:white;
+    font-size:16px;
+    margin-left:5px;
+    width:70%;
+    margin-bottom:25px;
+    height:50px;
+}
+.flexi{
+    display: flex;
+    align-items: center;
+}
+
+.home-img{
+    height:400px;
+    width:80%;
+}
+
+@media (min-width:768px){
+    .card1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .email-input{
+        display: flex;
+    }
+    .home-img{
+        width:50%;
+    }
+}
+
+@media (min-width:1024px){
+    .inner-card1{
+        width:50%;
+    }
+    .home-img{
+        width:50%;
     }
 }
