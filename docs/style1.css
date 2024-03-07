@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    margin:0;
+    padding:0;
+}
+.nav-container{
+    background-color: #ffffff;
+    height:10vh;
+    font-family:"Roboto";
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-image-logo{
+    height:50px;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    font-size:15px;
+    list-style-type:none;
+    padding-left:0;
+    font-family:"Roboto";
+    margin-right:auto;
+}
+.nav-item{
+    color:#172B4D;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+    padding:5px;
+    font-size:16px;
+}
+.nav-login-button{
+    padding:5px;
+    text-align: center;
+    font-size:18px;
+    color:#172B4D;
+    background-color: white;
+    border-width:0;
+    padding-right:15px;
+}
+.nav-get-free-button{
+    color:white;
+    background-color: #0065ff;
+    padding:5px;
+    height:10vh;
+    border-width:0;
+    font-family: "Roboto";
+    padding:5px;
+    font-size:18px;
+    padding-left:15px;
+}
+
+.nav-small-dev-icon{
+    display: none;
+}
+
+.nav-items-container2{
+    padding-left:0;
+    font-family:"Roboto";
+}
+.nav-item2{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid grey;
+    margin-left:5px;
+    margin-right:5px;
+}
+.nav-buttons-container2{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nlb2{
+    border:1px solid blue;
+    margin-top:10px;
+    padding:10px;
+}
+.nlb2:hover{
+    background-color:lightblue;
+}
+
+.dis{
+    display: none;
+}
+
+.sm-nav-cont{
+    display:none;
+}
+.seemore,.closes{
+    background-color: transparent;
+    border-width:0;
+}
+.closes{
+    margin-right:15px;
+}
+
+@media (min-width:320px) and (max-width:1023px){
+    .nav-items-container,.nav-buttons-container{
+        display: none;
+    }
+    .nav-small-dev-icon{
+        display: inline;
+        margin-right:15px;
+    }
+}
+@media (min-width:1023px){
+    .nav-items-container,.nav-buttons-container{
+        display: flex;
+    }
+    .nav-small-dev-icon{
+        color:white;
+    }
+    .sm-nav-cont{
+        display: none;
+    }
+}
