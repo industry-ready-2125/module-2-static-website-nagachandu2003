@@ -40,6 +40,9 @@ button{
     padding:5px;
     font-size:16px;
 }
+.nav-item:hover{
+    color:#0065ff;
+}
 .nav-login-button{
     padding:5px;
     text-align: center;
@@ -232,7 +235,7 @@ button{
     }
 }
 
-/* */
+/* TRELLO 101*/
 .trello-cont1{
     padding:20px;
     font-family:"Roboto";
@@ -264,4 +267,163 @@ h6{
     .inner-trello-cont1{
         width:90%;
     }
+}
+
+/* Trello In Action */
+.cards-container3{
+    overflow-x:scroll;
+    display: flex;
+    width:100%;
+}
+.cont-3{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height:80vh;
+    padding:20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cc3-card{
+    background-color: white;
+    box-shadow:0px 0px 8px 3px #888888;
+    border-radius:8px;
+    padding:20px;
+    border-top:40px solid #ff7452;
+    height:250px;
+    width:350px;
+    margin:10px;
+}
+.cc3-icon{
+    position:relative;
+    top:-40px;
+    border-radius:5px;
+    background-color:white;
+    padding:10px;
+    height:50px;
+    width:50px;
+}
+.cc3-heading,.cc3-par{
+    position:relative;
+    top:-20px;
+    color:#172B4D;
+    margin-top:0;
+}
+.cc3-b1{
+    border-color:#ff7452;
+
+}
+.cc3-b2{
+    border-color:#2684ff;
+}
+.cc3-b3{
+    border-color:#57d9a3;
+}
+.cc3-b4{
+    border-color:#ffc400;
+}
+.cc3-b5{
+    border-color:#00c7e5;
+}
+.cc3-b6{
+    border-color:#f99cdb;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius:20px;
+  }
+
+.flexi3{
+    text-align:center;
+}
+.cc3-btn3{
+    border:1px solid blue;
+    border-radius:8px;
+    background-color:transparent;
+    padding:10px;
+}
+  
+@media (min-width:1024px){
+    .inner-cont3{
+        width:90%;
+        padding:10px;
+        margin:auto;
+    }
+    .flexi3{
+        display: flex;
+        justify-content: space-between;
+        font-family:"Roboto";
+    }
+    .cc3-btn3{
+        border:1px solid blue;
+        border-radius:8px;
+        background-color:transparent;
+        padding:10px;
+    }
+}
+
+/* See work in a whole new day*/
+.cont-4{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(to right,#0075f8,#00afdd);
+    min-height:80vh;
+    padding:20px;
+}
+.inner-cont-4{
+    width:90%;
+    color:white;
+}
+.ic4-btn4{
+    background-color:white;
+    padding:10px;
+    text-align: center;
+    border-radius:5px;
+    border-width:0;
+}
+.ic4-card{
+    background-color: white;
+    border-radius:8px;
+    padding:20px;
+    color:#172B4D;
+    text-align:justify;
+    font-family:"Roboto";
+    font-size:18px;
+}
+@media (min-width:1024px){
+    .ic4-card{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+
+/* Powerful ways to grow */
+.cont-5{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top:20px;
+}
+.inner-cont-5{
+    width:90%;
+}
+.ic5-card{
+    background-color:#fafbfc;
+    font-family:"Roboto";
 }
