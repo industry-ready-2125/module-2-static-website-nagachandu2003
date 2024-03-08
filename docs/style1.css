@@ -10,6 +10,7 @@ body{
 button{
     cursor:pointer;
 }
+/*      nav bar     */
 .nav-container{
     background-color: #ffffff;
     height:10vh;
@@ -228,5 +229,39 @@ button{
     }
     .signupbtn{
         width:30%;
+    }
+}
+
+/* */
+.trello-cont1{
+    padding:20px;
+    font-family:"Roboto";
+    min-height:80vh;
+    background-image: linear-gradient(to bottom,#ffffff,#e8fcff);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.car-img-card1{
+    background-color: white;
+    border-left:8px solid #00c7e5;
+    padding:20px;
+    margin-top:15px;
+    border-radius:8px;
+}
+h6{
+    font-weight:bold;
+}
+.flexi2{
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width:1024px){
+    .car-img-card1{
+        padding:10px;
+    }
+    .inner-trello-cont1{
+        width:90%;
     }
 }
