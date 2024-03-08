@@ -132,13 +132,14 @@ button{
     padding:20px;
     text-align: center;
     color:#172B4D;
-    margin-top:5px;
-    margin-bottom: 5px;
+    margin:0;
 }
 .learnmore{
     color:#0052CC;
     text-decoration: underline;
+
 }
+/* Home page Styles */
 .card1{
     text-align: center;
     background-image: linear-gradient(to right, #6b45ac,#dc4fb3);
@@ -148,12 +149,15 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom:0px;
+    margin-top:0;
 }
 
 .inner-card1{
     width:100%;
     font-family: "Roboto";
     color:white;
+    width:90%;
 }
 
 .email-input{
@@ -162,7 +166,7 @@ button{
     border-radius:5px;
     border:none;
     outline:none;
-    width:60%;
+    width:40%;
     font-size:16px;
     display: none;
 }
@@ -180,33 +184,49 @@ button{
 }
 .flexi{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .home-img{
-    height:400px;
-    width:80%;
+    height:320px;
+    width:320px;
 }
-
 @media (min-width:768px){
-    .card1{
+    .home-img{
+        height:500px;
+        width:600px;
+    }
+    .email-input{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        width:50%;
+    }
+    .signupbtn{
+        width:35%;
+    }
+    
+}
+@media (min-width:1024px) {
+    .home-img{
+        height:500px;
+        width:500px;
     }
     .email-input{
         display: flex;
     }
-    .home-img{
-        width:50%;
-    }
-}
-
-@media (min-width:1024px){
     .inner-card1{
         width:50%;
     }
-    .home-img{
-        width:50%;
+    .card1{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card1-heading{
+        font-size:36px;
+    }
+    .card1-par{
+        font-size:18px;
+    }
+    .signupbtn{
+        width:30%;
     }
 }
