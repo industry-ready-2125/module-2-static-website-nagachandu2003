@@ -62,6 +62,7 @@ h1,p{
     margin-bottom:10px;
     width:90%;
     border-radius:5px;
+    font-weight: bold;
 }
 @media (max-width:1024px){
     .img1,.img2{
@@ -100,4 +101,16 @@ h1,p{
 }
 button{
     cursor:pointer;
+}
+@media (max-width:1023px){
+    .flexi{
+        text-align: center;
+    }
+}
+@media (min-width:1024px){
+.flexi{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
 }
