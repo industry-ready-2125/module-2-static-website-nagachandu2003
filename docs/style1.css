@@ -426,4 +426,122 @@ h6{
 .ic5-card{
     background-color:#fafbfc;
     font-family:"Roboto";
+    border-radius:8px;
+    padding:20px;
+}
+h5{
+    font-weight:bold;
+}
+
+/* Trello Priced your way */
+.bg5{
+    background-color:#e7fcff;
+    text-align:center;
+    font-family:"Roboto";
+    width:100%;
+    padding:20px;
+}
+.ic6-card{
+    height:500px;
+    background-color:white;
+    border:1px solid grey;
+    padding:20px;
+    text-align: left;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+.button6{
+    border:1px solid aqua;
+    padding:10px;
+    background-color:transparent;
+    border-radius:5px;
+}
+@media (min-width:1024px){
+.ic6-card-cont{
+    display: flex;
+}
+.ic6-card{
+    width:30%;
+}
+}
+
+/* last before section */
+.bg7{
+    text-align: center;
+    background-image: linear-gradient(to right, #6b45ac,#dc4fb3);
+    min-height:30vh;
+    width:100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    color:white;
+}
+@media (max-width:767px){
+    .button7{
+        width:90%;
+    }
+}
+/* footer */
+.bg8{
+    min-height:30vh;
+    background-color:#172B4D;
+    color:white;
+    font-family:"Roboto";
+    padding:20px;
+}
+@media (max-width:1024px){
+.foo1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.foo-logo{
+    height:40px;
+}
+.foo2{
+    margin-top:5px;
+    border-bottom:2px solid grey;
+}
+
+}
+
+
+@media (min-width:1024px){
+.foo-inner-cont{
+    display:flex;
+}
+}
+.foo-inner-cont{
+    border-bottom:1px solid grey;
+}
+.foo-cont{
+    list-style-type:none;
+}
+.foo-item{
+    border:2px solid white;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:1024px){
+    .foo23{
+        display:flex;
+        justify-content: space-between;
+    }
+    .foo-cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foo-item{
+        display:flex;
+        margin-left:5px;
+        margin-right:5px;
+    }
 }
